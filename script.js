@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     try {
                         await navigator.share({
                             title: document.title,
-                            text: 'Mira esta increíble página!',
+                            text: '¡Mira la increíble página de links de la comunidad CGN!',
                             url: window.location.href
                         });
                         console.log('Página compartida exitosamente');
